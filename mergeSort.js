@@ -19,4 +19,4 @@ function mergeSort(array) {
 }
 
 const list = [9, 3, 5, 1, 4, 6, 8, 7, 2];
-console.log(mergeSort(list));
+mergeSort(list); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
